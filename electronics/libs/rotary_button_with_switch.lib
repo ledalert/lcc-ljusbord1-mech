@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Rotary_button_with_switch
+#
+DEF Rotary_button_with_switch SW 0 40 Y Y 1 F N
+F0 "SW" -50 -350 60 H V C CNN
+F1 "Rotary_button_with_switch" -50 350 60 H V C CNN
+F2 "" 550 -250 60 H V C CNN
+F3 "" 550 -250 60 H V C CNN
+DRAW
+S -250 250 150 -250 0 0 0 N
+P 2 0 0 0  0 150  100 150 N
+P 3 0 0 0  -200 150  -100 150  0 200 N
+P 6 0 1 0  -200 0  -100 0  -100 50  0 50  0 0  100 0 N
+P 8 0 1 0  -200 -100  -150 -100  -150 -50  -50 -50  -50 -100  50 -100  50 -50  100 -50 N
+X ~ 1 -400 150 200 R 50 50 1 1 I
+X ~ 2 300 150 200 L 50 50 1 1 I
+X ~ A -400 0 200 R 50 50 1 1 I
+X ~ B -400 -100 200 R 50 50 1 1 I
+X Com C -400 -200 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
